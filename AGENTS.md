@@ -35,6 +35,7 @@ npm run lint      # Run ESLint
 3. **Database via Drizzle** - Use ORM patterns, avoid raw SQL
 4. **Tailwind First** - Use utility classes over custom CSS
 5. **Always Authenticate** - Check userId in protected routes/actions
+6. **NEVER Use middleware.ts** - This is deprecated in later versions of Next.js. Use proxy.ts instead
 
 ## 📖 Usage for AI Assistants
 
